@@ -1,0 +1,453 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+/*Index starts/ /index/ /index/ /index/ /index/ index/ index/ index/ index*/
+.wrapper {
+  /* background*/
+  background-color: rgb(81, 118, 160);
+  width: 100vw;
+  height: 100vh;
+}
+
+.header {
+  /*header*/
+  background-color: rgb(41, 78, 120);
+  position: fixed;
+  width: 99.1vw;
+}
+.spacer {
+  height: 11vh;
+}
+
+.container {
+  /*container*/
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  height: 11vh;
+}
+
+.logo-container {
+  /*Logo-container*/
+  display: flex;
+  align-items: center;
+}
+
+.Img1 {
+  /*logo img*/
+  width: 12vw;
+  height: 10vh;
+  margin-left: 25px;
+}
+
+h1 {
+  /*h1 text*/
+  margin-top: 5vh;
+  font-size: 30px;
+  margin-right: 1vw;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+nav a {
+  /* nav with buttons*/
+  color: white;
+  text-decoration: none;
+  margin-left: 15vh;
+  font-size: 22px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+nav a:hover {
+  /*buttons hover*/
+  text-decoration: underline;
+  color: rgb(81, 118, 160);
+}
+
+.content1 {
+  /*content of shark1*/
+  display: flex;
+  justify-content: space-between;
+}
+
+.whiteshark {
+  /*settings of shark img 1*/
+
+  width: 100vw;
+  height: 35vh;
+  overflow: hidden;
+}
+
+.shark1 {
+  /*settings of shark img 1*/
+  width: 100vw;
+  height: 35vh;
+}
+
+.content2 {
+  /*title box*/
+  display: flex;
+  background-color: rgb(81, 118, 160);
+}
+h2 {
+  /*H2 title the great white shark*/
+  margin-top: 1vw;
+  margin-left: 2vw;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  font-size: 2em;
+}
+
+.content3 {
+  /*Info box about white shark*/
+  display: flex;
+  background-color: rgb(81, 118, 160);
+  height: 50vh;
+}
+
+#textshark {
+  /*text into the box*/
+  margin-top: 1vw;
+  margin: 2vw;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border: solid white;
+  font-size: 20px;
+  padding: 3px;
+}
+
+.content4 {
+  /*Shark box img123*/
+  display: flex;
+  justify-content: space-between;
+  margin: 2vw;
+}
+
+.item1 {
+  /*box of img1*/
+  width: 22vw;
+  height: 25vh;
+  border: solid white;
+  overflow: hidden;
+}
+
+.TGWSH1 {
+  /*shark img1*/
+  width: 22vw;
+  height: 25vh;
+}
+
+.item2 {
+  /*box of img2*/
+  width: 22vw;
+  height: 25vh;
+  border: solid white;
+  overflow: hidden;
+}
+
+.TGWSH2 {
+  /*shark img2**/
+  width: 22vw;
+  height: 25vh;
+}
+
+.item3 {
+  width: 22vw;
+  height: 25vh;
+  border: solid white;
+  background-color: red;
+  overflow: hidden;
+}
+
+.TGWSH3 {
+  /*shark img3**/
+  width: 22vw;
+  height: 25vh;
+}
+
+.footer {
+  margin-top: 3vh;
+  background-color: rgb(41, 78, 120);
+  height: 6vh;
+  text-align: center;
+}
+
+#textfooter {
+  text-align: left;
+  color: white;
+  text-decoration: none;
+}
+
+#textfooter00{
+  text-decoration: none;
+  color: white;
+}
+
+/*Index finish/ /index/ /index/ /index/ /index/ index/ index/ index/ index*/
+
+/*species html*/
+.header2 {
+  /*header species html */
+  background-color: rgb(41, 78, 120);
+  position: fixed;
+  width: 100vw;
+}
+
+.content5{ 
+  display: flex;
+  justify-content: space-between;
+}
+
+.item4{
+  margin: 2vw;
+  width: 20vw;
+  height: 30vh;
+  border: solid white;
+  overflow: hidden;
+}
+
+#bullshark{
+  
+  width: 20vw;
+  height:15vw ;
+}
+
+
+.item5{
+  margin: 2vw;
+  width: 20vw;
+  height: 30vh;
+  border: solid white;
+  overflow: hidden;
+}
+
+#text5{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  font-size: 15px;
+  padding: 2.5px;
+}
+
+.item6{
+  margin: 2vw;
+  width: 20vw;
+  height: 30vh;
+  border: solid white;
+  overflow: hidden;
+}
+#text6{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  font-size: 15px;
+  padding: 2.5px;
+}
+
+.item7{
+  margin: 2vw;
+  width: 20vw;
+  height: 30vh;
+  border: solid white;
+  overflow: hidden;
+}
+
+#tigershark{
+  width: 20vw;
+  height: 30vh;
+}
+
+
+.content6{
+  display: flex;
+  justify-content: space-between;
+}
+.item8{
+  margin: 2vw;
+  width: 20vw;
+  height: 30vh;
+  border: solid white;
+  overflow: hidden;
+}
+
+#hammershark{
+  width: 20vw;
+  height: 30vh;
+}
+
+.item9{
+  margin: 2vw;
+  width: 20vw;
+  height: 30vh;
+  border: solid white;
+}
+
+#text7{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  font-size: 16px;
+  padding: 2.5px;
+}
+
+.item10{
+  margin: 2vw;
+  width: 20vw;
+  height: 30vh;
+  border: solid white;
+  overflow: hidden;
+}
+
+#whaleshark{
+  width: 20vw;
+  height: 30vh;
+}
+
+.item11{
+  margin: 2vw;
+  width: 20vw;
+  height: 30vh;
+  border: solid white;
+  overflow: hidden;
+}
+
+#text8{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  font-size: 16px;
+  padding: 2.5px;
+}
+
+.footer2 {
+  
+  margin-top: 3vh;
+  background-color: rgb(41, 78, 120);
+  height: 6vh;
+  text-align: center;
+}
+
+#textfooter2 {
+  text-align: left;
+  color: white;
+  text-decoration: none;
+}
+
+/*species html finishes*/
+
+/*About us html starts*/
+.header2 {
+  /*header species html */
+  background-color: rgb(41, 78, 120);
+  position: fixed;
+  width: 99.1vw;
+}
+
+.content7{
+  display: flex;
+  background-color: rgb(81, 118, 160);
+  height: 50vh;
+}
+#titleabout{
+    margin-top: 1vw;
+    margin-left: 2vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: white;
+    font-size: 2.2em;
+  
+}
+#text9{
+  margin-top: 1vw;
+  margin: 2vw;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border: solid white;
+  font-size: 25px;
+  padding: 3px;
+}
+
+/*About us html finishes*/
+
+/*habitats html starts*/
+.header3 {
+  /*header habitats html */
+  background-color: rgb(41, 78, 120);
+  position: fixed;
+  width: 100vw;
+}
+
+.content8{
+  display: flex;
+  height: 50vh;
+}
+
+#text10{
+  
+    margin-top: 1vw;
+    margin: 2vw;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    border: solid white;
+    font-size: 20px;
+    padding: 3px;
+  
+}
+
+#titlehabitat{
+  margin-top: 1vw;
+    margin-left: 2vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: white;
+    font-size: 2.1em;
+}
+.footer3 {
+  margin-top: 3vh;
+  background-color: rgb(41, 78, 120);
+  height: 6vh;
+  text-align: center;
+}
+
+#textfooter3 {
+  text-align: left;
+  color: white;
+  text-decoration: none;
+}
+
+#textfooter00{
+  text-decoration: none;
+  color: white;
+}
+/*habitats html fineshes*/
+
+.header4 {
+  /*header habitats html */
+  background-color: rgb(41, 78, 120);
+  position: fixed;
+  width: 99.1vw;
+}
+
+.content9{
+  display: flex;
+  justify-content: space-between;
+  height: 50vh;
+  margin: 2vw;
+  border: solid white;
+}
+
+#texthistory{
+ align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  font-size: 22px;
+  padding: 2.5px;
+}
+
+
